@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home {
+    background-image: url("img/consultorio.png");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+}
+#seja{
+    color: #40E0d0;
+    text-shadow: 1px 1px 1px #47ddddd5;
+    font-family: Helvetica;
+}
+#pet {
+    color: #ffff;
+    font-family: Helvetica;
+    text-shadow: 1px 1px 1px #0000;
+}
+body{
+    background-color: #40E0d0;
+    color: white;
+    
+}
+
+.caixa {
+    padding: 60px 0;
+    border: 1px solid #e5e5e5;  
+}
+.card {
+    background-color: white;
+    color: black;
+  
+}
+.card:hover{
+    background-color: #40E0d0;
+}
+.btn{
+    color: black;
+    transition: .4s;
+}
+.btn:hover{
+    
+    color: white;
+}
+
+
+.card-body{
+    color: black;
+    background-color: white;
+}
+.col{
+    font-size: medium;
+}
+.custom-control-label{
+    align-self: auto;
+}
+#btnsub{
+    transition: .4s;
+}
+#btnsub:hover{
+    background-color: #40E0d0;
+    color: white
+
+
+}

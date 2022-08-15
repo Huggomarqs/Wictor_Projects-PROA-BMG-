@@ -1,0 +1,49 @@
+#home {
+    background-image: url("img/consultorio.png");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+}
+#seja{
+    color: #40E0d0;
+    text-shadow: 1px 1px 1px #47ddddd5;
+    font-family: Helvetica;
+}
+#pet {
+    color: #ffff;
+    font-family: Helvetica;
+    text-shadow: 1px 1px 1px #0000;
+}
+body{
+    background-color: #40E0d0;
+    color: white;
+    
+}
+
+.caixa {
+    padding: 60px 0;
+    border: 1px solid #e5e5e5;  
+}
+.botão{
+    text-align: center;
+}
+.valor{
+    text-align: center;
+    color: white;
+
+}
+.nome{
+    text-align: center;
+    background-color: #1a54d4;
+    color: white;
+    font-family: Helvetica
+
+    
+}
+.image{
+    padding-left: 20%;
+    
+
+}
