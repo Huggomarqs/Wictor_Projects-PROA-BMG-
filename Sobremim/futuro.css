@@ -71,19 +71,18 @@ a{
     margin-left: 55px;
     margin-right: 10px;
     width: 20%;
+    max-width: 20%;
     background-color: #FF8C00;
     color: white;
     border-radius: 6px;
     overflow: hidden;
     height: 500px;
-
-
 }
-
 .retangulodir {
     padding-left: 20px;
     padding-top: 10px;
     width: 70%;
+    max-width: 80%;
     background-color: #FF8C00;
     color: white;
     border-radius: 6px;

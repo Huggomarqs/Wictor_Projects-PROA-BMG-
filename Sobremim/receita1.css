@@ -84,20 +84,67 @@ h3{
     height: 500px;
 }
 h2{
-    padding-top: 70px;
+    padding-top: 60px;
     padding-left: 100px;
     padding-bottom: 3px;
     color: black;
     text-shadow: -1px -1px #111111;
     overflow: hidden;
 }
-h5{
-    padding-top: 40px;
-    padding-left: 100px;
-    padding-bottom: 3px;
-    color: black;
+#linha1{
+    padding:0;
+    margin: 0;
     overflow: hidden;
-
+}
+#linha2{
+    padding:20;
+    margin: 0;
+    overflow: hidden;
+}
+.ingred{
+    margin-top: 42px ;
+    border-radius: 6px;
+    margin-left: 36px;
+    margin-right: 10px;
+    margin-bottom: 29px;
+    height: 320px;
+    width: 31%;
+    background-color: black;
+    overflow: hidden;
+    color: #FF8C00;
+    font-size: 18px;
+}
+.modprepa{
+    margin-top: 42px ;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-bottom: 29px;
+    height: 320px;
+    width: 59%;
+    background-color: black;
+    overflow: hidden;
+    color: #FF8C00;
+    font-size: 20px;
+}
+h5{ 
+    text-align: center  ;
+    padding-bottom: 3px;
+    color: #FF8C00;
+    overflow: hidden;
+}
+ul{
+    overflow: hidden;
+}
+li{
+    font-size: smaller  ;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-right: 8px;
+    
+}
+.num{
+    font-size:larger;
 }
 .retangulodir {
     padding-left: 20px;
