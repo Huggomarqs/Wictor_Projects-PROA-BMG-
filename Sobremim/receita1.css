@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    outline: 0;
 }
 
 header {
@@ -14,7 +15,8 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.logo{
+
+.logo {
     margin-left: 25px;
 }
 
@@ -23,30 +25,32 @@ nav {
     margin-top: 15px;
     width: 50%;
     margin-left: 500px;
-    overflow: hidden;    
+    overflow: hidden;
 }
+
 body {
     background-color: black;
-    overflow: hidden ;
-
 }
-.row{
-    margin:0px;
+
+.row {
+    margin: 0px;
     padding-top: 10px;
     margin-left: 10px;
 }
 
-a{
+a {
     max-height: fit-content;
 
 }
-.atext{
+
+.atext {
     color: black;
     outline: 0;
-    
+
 
 }
-.atext:hover{
+
+.atext:hover {
     font-style: normal;
     text-decoration: none;
     color: #FF8C00;
@@ -54,24 +58,95 @@ a{
 
 .caixa {
     border-top: 1px solid #FF8C00;
-    padding-top: 15px;
     border-bottom: 1px solid #FF8C00;
     padding-bottom: 25px;
     height: 600px;
     overflow: hidden;
 }
-h3{
+
+h3 {
     color: #FF8C00;
-    margin-left:65px ;
-    margin-bottom: 10px;
+    overflow: hidden;
+    margin: 0;
+}
+#linha0{
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+.gosto{
+    margin-left: 65px;
+    margin-bottom: 9px;
+    margin-top: 16px;
     overflow: hidden;
 }
-#linha{
-    padding:0;
+.drop{
+    background-color: #FF8C00;
+    height: 43.58px;
+    width: 20%;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    margin-left: 64.7%;
+    border-radius: 6px;
+    margin-right: 66px;
+    overflow: visible;
+    outline: 0;
+}
+#dropdown{
+    overflow: visible;
+    border-radius: 6px;
+    outline: #FF8C00;
+    
+}
+#dropdownMenuLink{
+    background-color: #FF8C00;
+    outline: #FF8C00;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 99.4%;
+    margin-left: 1px;
+    height: 43.58px;
+    overflow: visible;
+    text-align: left;
+    font-size: larger;
+    border-radius: 6px;
+    padding-bottom: 2px;
+}
+#dropdownMenuLink:hover{
+    background-color: black;
+    color: #FF8C00;
+}
+#dropdownMenuLink:focus{
+    background-color: black;
+    color: #FF8C00;
+   
+}
+.dropdown-menu{
+    width: 100%;
+    background-color: black;
+}
+.dropdown-item{
+    color: #FF8C00;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-size: large;
+
+}
+.dropdown-item:hover{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF8C00;
+    font-size: large;
+
+}
+
+#linha {
+    padding: 0;
     margin-left: 0;
     height: 500px;
-    overflow: hidden;
+
 }
+
 .retanguloesq {
     padding: 0;
     margin-left: 60px;
@@ -83,30 +158,55 @@ h3{
     overflow: hidden;
     height: 500px;
 }
-h2{
-    padding-top: 60px;
-    padding-left: 100px;
+
+#rowid {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
     padding-bottom: 3px;
     color: black;
     text-shadow: -1px -1px #111111;
     overflow: hidden;
 }
-#linha1{
-    padding:0;
+
+
+#linha2 {
+    padding: 0;
     margin: 0;
     overflow: hidden;
 }
-#linha2{
-    padding:20;
+
+.linha1 {
+    padding-top: 55px;
+    padding-left: 93px;
+    padding-right: 92px;
     margin: 0;
     overflow: hidden;
+    padding-bottom: 54px;
 }
-.ingred{
-    margin-top: 42px ;
+
+.retanguloimg {
+    border-radius: 8px;
+    height: 120px;
+    width: 59%;
+    background-color: black;
+    margin-right: 38px;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    background-image: url("img/Receitas/Strogonoff.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.ingred {
     border-radius: 6px;
-    margin-left: 36px;
+    margin-left: 37px;
     margin-right: 10px;
-    margin-bottom: 29px;
+    margin-bottom: 21px;
     height: 320px;
     width: 31%;
     background-color: black;
@@ -114,12 +214,12 @@ h2{
     color: #FF8C00;
     font-size: 18px;
 }
-.modprepa{
-    margin-top: 42px ;
+
+.modprepa {
     border-radius: 6px;
     margin-left: 10px;
-    margin-right: 25px;
-    margin-bottom: 29px;
+    margin-right: 37px;
+    margin-bottom: 21px;
     height: 320px;
     width: 59%;
     background-color: black;
@@ -127,95 +227,115 @@ h2{
     color: #FF8C00;
     font-size: 20px;
 }
-h5{ 
-    text-align: center  ;
+
+h5 {
+    text-align: center;
     padding-bottom: 3px;
     color: #FF8C00;
     overflow: hidden;
 }
-ul{
+
+ul {
     overflow: hidden;
 }
-li{
-    font-size: smaller  ;
+
+li {
+    font-size: 14px;
     padding-left: 10px;
     padding-top: 1px;
     padding-right: 8px;
-    
+
 }
-.num{
-    font-size:larger;
+
+.num {
+    font-size: 16px;
 }
+
 .retangulodir {
-    padding-left: 20px;
-    padding-top: 10px;
     width: 20%;
     background-color: #FF8C00;
     color: white;
     border-radius: 6px;
     overflow: hidden;
     height: 500px;
+    margin-right: 64px;
+
 }
-button{
+#gol{
+    overflow: hidden;
+}
+
+button {
     margin-right: 6px;
 }
-button:focus{
+
+button:focus {
     outline: 0;
-    
+
 }
-button:hover{
+
+button:hover {
     background-color: black;
     color: #FF8C00;
     font-style: normal;
 }
-.btn-lg{
+
+.btn-lg {
     background-color: #FF8C00;
     outline: 0;
 }
+
 body {
     background-color: black;
-    overflow: hidden ;
+    overflow: hidden;
 
 }
-.row{
-    margin:0px;
+
+.row {
+    margin: 0px;
     padding-top: 10px;
     margin-left: 10px;
 }
 
-a{
+a {
     max-height: fit-content;
 
 }
-.atext{
+
+.atext {
     color: black;
     outline: 0;
-    
+
 
 }
-.atext:hover{
+
+.atext:hover {
     font-style: normal;
     text-decoration: none;
     color: #FF8C00;
 }
-#frase{
+
+#frase {
     overflow: hidden;
     padding: 0;
-    
+
 }
-h4{
+
+h4 {
     margin: 0;
     overflow: hidden;
     color: #FF8C00;
 }
-footer{
+
+footer {
     height: 30px;
 }
-#carinha{
+
+#carinha {
     margin-left: 720px;
 }
-    
-.container{
+
+.container {
     margin-right: 20px;
     margin-left: 100px;
 
