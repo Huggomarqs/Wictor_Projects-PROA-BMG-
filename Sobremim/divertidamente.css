@@ -54,43 +54,122 @@ a{
 
 .caixa {
     border-top: 1px solid #FF8C00;
-    padding-top: 30px;
+    padding-top: 10px;
     border-bottom: 1px solid #FF8C00;
-    padding-bottom: 30px;
-    height: 562px;
+    padding-bottom: 10px;
     overflow: hidden;
+}
+#linha0{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 13.5%;
+}
+h1{
+    margin: 0;
+    overflow: hidden;
+    color: #FF8C00;
+    padding-bottom: 3px;
 }
 #linha{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #FF8C00;
     padding:0;
-    margin-left: 0;
-    height: 500px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 161px;
+    width: 74%;
     overflow: hidden;
 }
-.retanguloesq {
+#linha1{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #FF8C00;
+    padding:0;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 161px;
+    width: 74%;
+    overflow: hidden;
+}
+#linha2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding:0;
+    border-bottom: 1px dashed #FF8C00;
+
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 161px;
+    width: 74%;
+    overflow: hidden;
+}
+.retangulo1pri {
     padding: 0;
-    margin-left: 55px;
-    margin-right: 10px;
-    width: 20%;
+    margin-left: 1%;
+    width: 23%;
     background-color: #FF8C00;
     color: white;
     border-radius: 6px;
     overflow: hidden;
-    height: 500px;
+    height: 141px;
+    margin-right: 2%;
 }
-.retangulodir {
-    padding-left: 20px;
-    padding-top: 10px;
-    width: 70%;
+.retangulo1 {
+    padding: 0;
+    width: 23%;
     background-color: #FF8C00;
     color: white;
     border-radius: 6px;
-    margin-right: 10px;
-    margin-left: 10px;
     overflow: hidden;
-    height: 500px;
+    height: 141px;
+    margin-right: 2%;
+}
+.retangulo1ul {
+    padding: 0;
+    width: 23%;
+    background-color: #FF8C00;
+    color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 141px;
+}
+.divretangulo{
+    height: 26px;
+    background-color: black;
+    margin-top: 1px;
+    margin-left: .5%;
+    margin-right: .5%;
+    border-radius: 6px ;
+    overflow: hidden;
+    padding-bottom: 1px;
+
+}
+.divretangulo1{
+    height: 112px;
+    background-color: black;
+    margin-top: 1px;
+    margin-left: .5%;
+    margin-right: .5%;
+    border-radius: 6px ;
+    overflow: hidden;
+}
+h6{
+    color: #FF8C00;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.retanguloimg{
+    width: 83.5%;
+    background-color: #FF8C00;
+    height: 140px;
+    border-radius: 6px;
 }
 button{
-    margin-right: 6px;
+    margin-right: 20px;
 }
 button:focus{
     outline: 0;
@@ -132,33 +211,7 @@ a{
     color: #FF8C00;
 }
 
-.caixa {
-    border-top: 1px solid #FF8C00;
-    padding-top: 30px;
-    border-bottom: 1px solid #FF8C00;
-    padding-bottom: 30px;
-    height: 562px;
-    overflow: hidden;
-}
-#linha{
-    padding:0;
-    margin-left: 0;
-    height: 500px;
-    overflow: hidden;
-}
-.retanguloesq {
-    padding: 0;
-    margin-left: 55px;
-    margin-right: 10px;
-    width: 20%;
-    background-color: #FF8C00;
-    color: white;
-    border-radius: 6px;
-    overflow: hidden;
-    height: 500px;
 
-
-}
 #frase{
     overflow: hidden;
     padding: 0;
