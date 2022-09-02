@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Trapézio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="codigo.ico">
+
+    <script>
+        var diagomaior, diagomenor, altura, A;
+
+            diagomaior = parseInt(prompt("Informe o valor da base maior do trapézio"));
+            diagomenor = parseInt(prompt("Informe o valor da base menor do trapézio"));
+            altura = parseInt(prompt("Informe o valor da altura do trapézio"));
+            A = ((diagomaior + diagomenor) * altura)/2;
+            if (diagomaior && diagomenor && altura > 0) {
+                if (diagomaior < diagomenor) {
+                    var alternar;
+                    alternar = diagomenor;
+                    diagomenor = diagomaior;
+                    diagomaior = alternar;
+                    document.write("A base maior é igual a: " + diagomaior + "<br>" + "A base menor é igual a: " + diagomenor + "<br>" + "A altura é igual a: " + altura + "<br>" + "A area do losango é igual a: " + A);
+                }
+                else {
+                    document.write("A base maior é igual a: " + diagomaior + "<br>" + "A base menor é igual a: " + diagomenor + "<br>" + "A altura é igual a: " + altura + "<br>" + "A area do losango é igual a: " + A);
+                }
+            }
+            else {
+                document.write("erro");
+            }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
