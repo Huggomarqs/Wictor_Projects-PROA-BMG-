@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Losango</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="codigo.ico">
+
+    <script>
+        var diagomaior, diagomenor, A;
+
+        diagomaior = parseInt(prompt("Informe o valor da diagonal maior do losango"));
+        diagomenor = parseInt(prompt("Informe o valor da diagonal menor do losango"));
+        A = ((diagomaior * diagomenor) / 2);
+        if (diagomaior && diagomenor > 0) {
+            if (diagomaior < diagomenor) {
+                var alternar;
+                alternar = diagomenor;
+                diagomenor = diagomaior;
+                diagomaior = alternar;
+                document.write("A diagonal maior é igual a: " + diagomaior + "<br>" + "A diagonal menor é igual a: " + diagomenor + "<br>" + "A area do losango é igual a: " + A);
+            }
+            else {
+                document.write("A diagonal maior é igual a: " + diagomaior + "<br>" + "A diagonal menor é igual a: " + diagomenor + "<br>" + "A area do losango é igual a: " + A);
+            }
+        }
+        else {
+            document.write("erro");
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
