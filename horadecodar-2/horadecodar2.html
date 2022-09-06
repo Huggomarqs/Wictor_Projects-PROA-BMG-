@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Hora de codar 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="codigo.ico">
+    <script>
+        // Atividade 1: Escreva um programa em que o usuário informe dois números utilizando o "prompt". Então escreva em tela o maior deles.
+            /*     var num1,num2;
+               num1 = parseInt(prompt("Insira um número"));
+               num2 = parseInt(prompt("Insira outro número"));
+               if(num1 && num2 < 0){
+                document.write("somente numeros positivos!");
+               }
+               if(num1 > num2){
+                    document.write("O maior número é: " + num1);
+               }
+               else{
+                document.write("O maior número é o: " + num2);
+               } */
+        // Atividade 2: Faça um programa que leia um valor informado pelo usuário e diga se o valor informado é positivo, negativo ou zero.
+            /*      var num;
+
+                 num = parseInt(prompt("Digite um valor"));
+               if(num > 0){
+                document.write("Esse número é positivo!");
+               }
+                if(num == 0){
+                document.write("Esse número é zero!");
+               }
+               if(num < 0){
+                document.write("Esse número é negativo!");
+               }*/
+        // Atividade 3: Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+              /*  var num1,num2, num3;
+               num1 = parseInt(prompt("Insira um número"));
+               num2 = parseInt(prompt("Insira outro número"));
+               num3 = parseInt(prompt("Insira mais outro número"));
+               if(num1 && num2 && num3 < 0){
+                document.write("somente numeros positivos!");
+               }
+
+               if((num1 == num2) || (num1 == num3) || (num3 == num2)) {
+                document.write("números iguais não pode!");
+               }
+               else{
+                if(num3 && num2 < num1){
+                    document.write("O maior número é: " + num1);
+               }
+               else if(num1 && num3 < num2){
+                document.write("O maior número é o: " + num2);
+               }
+               else{
+                document.write("O maior número é o: " + num3);
+               }
+            }*/
+        // Atividade 4: Faça um programa que leia  3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+            /*    var num1,num2, num3;
+               num1 = parseInt(prompt("Insira um número"));
+               num2 = parseInt(prompt("Insira outro número"));
+               num3 = parseInt(prompt("Insira mais um número"));
+               if(num1 && num2 && num3 < 0){
+                document.write("somente numeros positivos!");
+               }
+
+               if((num1 == num2) || (num1 == num3) || (num3 == num2)) {
+                document.write("números iguais não pode!");
+               }
+               else{
+                if(num3 || num2 < num1){
+
+                    document.write("O maior número é: " + num1);
+               }
+               else if(num1 && num3 < num2){
+                document.write("O maior número é o: " + num2);
+               }
+               else{
+                document.write("O maior número é o: " + num3);
+               }
+            }*/
+        // Atividade 5: Faça um programa que leia 6 valores informados pelo usuário, calcule, exiba os números informados e escreva a média aritmética desses valores lidos.
+            /*    var num1,num2, num3,num4,num5,num6;
+
+                num1 = parseInt(prompt("Insira um número"));
+                num2 = parseInt(prompt("Insira um número"));
+                num3 = parseInt(prompt("Insira um número"));
+                num4 = parseInt(prompt("Insira um número"));
+                num5 = parseInt(prompt("Insira um número"));
+                num6 = parseInt(prompt("Insira um número"));
+
+               if(num1 && num2 && num3 && num4 && num5 && num6 < 0){
+                document.write("somente numeros positivos!");
+               }
+               else{
+                var media = (num1+num2+num3+num4+num5+num6)/6;
+                document.write("numero 1: " + num1 + "<br>");
+                document.write("numero 2: " + num2 + "<br>");
+                document.write("numero 3: " + num3 + "<br>");
+                document.write("numero 4: " + num4 + "<br>");
+                document.write("numero 5: " + num5 + "<br>");
+                document.write("numero 6: " + num6 + "<br>");
+                document.write(media);
+               }*/
+            // Atividade 6: Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)
+              /* var num1,num2, num3, num4,maior;
+               num1 = parseInt(prompt("Insira o primeiro número"));
+               num2 = parseInt(prompt("Insira outro número"));
+               num3 = parseInt(prompt("Insira mais um número"));
+               num4 = parseInt(prompt("Insira o ultimo número"));
+               if(num1 && num2 && num3 && num4 < 0){
+                document.write("somente numeros positivos!");
+               }
+
+               if((num1 == num2) || (num1 == num3) || (num1 == num4) || (num3 == num2) || (num2 == num4) || (num3 == num4)) {
+                document.write("números iguais não pode!");
+               }
+               else{
+                if((num3 && num2 && num4 < num1)){
+                    maior = num1;
+               }
+               else if((num3 && num1 && num4 < num2)){
+                maior = num2;
+               }
+               else if((num2 && num1 && num4 < num3)){
+                maior = num3;
+               }
+               else{
+                maior = num4;
+               }
+               document.write("O primeiro número informado foi: " + num1 + "<br>" + "O ultimo número informado foi: " + num4 + "<br>" + "O maior número é: " + maior);
+            } */
+            // Atividade 7: Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou.
+            /*var num1,num2, num3,num4,num5,num6, soma;
+
+                num1 = parseInt(prompt("Insira um número"));
+                num2 = parseInt(prompt("Insira um número"));
+                num3 = parseInt(prompt("Insira um número"));
+                num4 = parseInt(prompt("Insira um número"));
+                num5 = parseInt(prompt("Insira um número"));
+                num6 = parseInt(prompt("Insira um número"));
+                if(num1 || num2 || num3 || num4 || num5 || num6 < 0){
+                document.write("somente numeros positivos!");
+                }
+                else{
+                    var soma = 0
+                    if(num1 < 72){
+                        soma = soma + num1;
+                    }
+                    if(num2 < 72){
+                        soma = soma + num2;
+                    }
+                    if(num3 < 72){
+                        soma = soma + num3;
+                    }
+                    if(num4 < 72){
+                        soma = soma + num4;
+                    }
+                    if(num5 < 72){
+                        soma = soma + num5;
+                    }
+                    if(num6 < 72){
+                        soma = soma + num6;
+                    }
+                    document.write("numero 1: " + num1 + "<br>");
+                    document.write("numero 2: " + num2 + "<br>");
+                    document.write("numero 3: " + num3 + "<br>");
+                    document.write("numero 4: " + num4 + "<br>");
+                    document.write("numero 5: " + num5 + "<br>");
+                    document.write("numero 6: " + num6 + "<br>");
+                    document.write("A soma disso tudo é: " + soma);
+                }*/
+                // Atividade 8: Escreva um programa que calcule a média de quatro números informados pelo usuário, mas somente se esses números forem maiores que 0 e menores que 10. No final, se a média for maior que cinco o usuário receberá uma mensagem "Você passou no teste". Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"
+                 /*   var num1,num2, num3,num4;
+                    num1 = parseInt(prompt("Insira um número"));
+                    num2 = parseInt(prompt("Insira um número"));
+                    num3 = parseInt(prompt("Insira um número"));
+                    num4 = parseInt(prompt("Insira um número"));
+                        var soma = 0
+                        if(num1 <= 10){
+                            if(num1>0){
+                            soma = soma + num1;
+                            }
+                        }
+                        if(num2 <= 10){
+                            if(num2>0){
+                            soma = soma + num2;
+                            }
+                        }
+                        if(num3 <= 10){
+                            if(num3>0){
+                            soma = soma + num3;
+                            }
+                        }
+                        if(num4 <= 10){
+                            if(num4>0){
+                            soma = soma + num4;
+                            }
+                        }
+                        var media = soma/4;
+
+                        if(media >= 5){
+                        document.write("numero 1: " + num1 + "<br>");
+                        document.write("numero 2: " + num2 + "<br>");
+                        document.write("numero 3: " + num3 + "<br>");
+                        document.write("numero 4: " + num4 + "<br>");
+                        document.write("A soma disso tudo é: " + media + "<br>");
+                        document.write("Voce passou no teste!");
+                    }
+                    else{
+                    document.write("Tente novamente");
+                    }*/
+                // Atividade 9: Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).
+                /*var dia,mes, ano;
+            
+                dia = parseInt(prompt("Insira o dia que você nasceu:"));
+                mes = parseInt(prompt("Insira o mês que você nasceu:"));
+                ano = parseInt(prompt("Insira o ano que você nasceu:"));
+                    
+                if(ano > 1900){
+                    var idade = 2022 - ano
+
+                    if(idade >= 16){
+                        document.write("Sua data de nascimento é " + dia + "<strong>/</strong>" + mes + "<strong>/</strong>" + ano + "<br>" + "Sua idade é: " + idade + "<br>" + "Voce pode votar esse ano!")
+                    }
+                    else{
+                        document.write("Sua data de nascimento é " + dia + "<strong>/</strong>" + mes + "<strong>/</strong>" + ano + "<br>" + "Sua idade é: " + idade + "<br>" + "Voce não pode votar esse ano!")
+                    }
+                }
+                else{
+                    document.write("Não minta rapaz")
+                }*/ 
+                // Atividade 10: Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma pessoa, construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas:
+               /* var altura;
+                altura = parseFloat(prompt("Insira sua altura:"));
+                if(altura < 3){
+                    var sexo = parseInt(prompt("Insira seu sexo: 1 - Feminino      2 - Masculino"));
+                if(sexo = 1){
+                   var formula = (62.1*altura)-44.7;
+                   document.write("Seu peso ideal é " + formula);
+                }
+                else if(sexo = 2){
+                    var formula = (72.7*altura)-58;
+                   document.write("Seu peso ideal é " + formula);
+                }
+                else{
+                    document.write("erro.");
+                }
+            }
+            else{
+                document.write("Insira a altura com ponto!");
+
+            }*/
+            // Atividade 11: Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes operações a serem
+            //    executadas (codificada da seguinte forma: 1.Adição, 2.Subtração, 3.Divisão, 4.Multiplicação).
+            //  O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos. Observação: Considere
+            //  que só serão lidos os valores 1, 2, 3 ou 4 para as operações
+             /*   var valor1,valor2,op;
+
+                valor1 = parseInt(prompt("Insira um valor"));
+                valor2 = parseInt(prompt("Insira outro valor"));
+
+                op = parseInt(prompt("Escolha um: 1.Adição, 2.Subtração, 3.Divisão, 4.Multiplicação"));
+
+                if(isNaN(op)){
+                    document.write("somente números");
+                }
+                else{
+                    if(op<=4){
+                        if(op<=0){
+                            document.write("erro!");
+                        }
+                        else{
+                            var res;
+                            switch(op){
+                                case 1: res=valor1+valor2
+                                        document.write("O resultado de " + valor1 + "+" + valor2 + " é igual a: " + res);
+                                        break;
+                                case 2: res=valor1-valor2
+                                        document.write("O resultado de " + valor1 + "-" + valor2 + " é igual a: " + res);
+                                        break;
+                                case 3: res=valor1/valor2
+                                        document.write("O resultado de " + valor1 + ":" + valor2 + " é igual a: " + res);
+                                        break;
+                                case 4: res=valor1*valor2
+                                        document.write("O resultado de " + valor1 + "X" + valor2 + " é igual a: " + res);
+                                        break;
+                            }
+                        }
+                    }
+                    else{
+                        document.write("erro!");
+                    }
+                }*/
+                
+   </script>
+</head>
+<body>
+    
+</body>
+</html>
