@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Caixa Eletrônico</title>
+
+	<script>
+
+		var saldo = 100.5; //Variavel Global
+		var nome;
+		function nomefuncao() {
+			nome = (prompt('Digite o seu nome'));
+		}
+		function inicio() {
+			//ESCOPO
+			//Variavel Local
+			var escolha = parseInt(prompt(`Olá, ${nome} é um prazer ter você por aqui!` + '\n' + 'Selecione uma opção: 1) Saldo | 2) Extrato | 3) Saque | 4) Depósito \n 5) Tranferência | 6) Sair'));
+			if (escolha <= 0 || escolha > 6) {
+				erro();
+			}
+			switch (escolha) {
+				case 1: ver_saldo();
+
+				case 2: ver_extrato()
+
+				case 3: fazer_saque();
+
+				case 4: fazer_deposito();
+
+				case 5: transferencia()
+
+				case 6: sair();
+			}
+
+		}
+
+
+		function ver_saldo() {
+			let senha = parseInt(prompt('informe a senha'));
+			if (senha === 3589) {
+				alert('Seu saldo atual é: ' + saldo);
+				inicio();
+			}
+			else {
+				ver_saldo()
+			}
+		}
+
+		function ver_extrato() {
+			let senha = parseInt(prompt('informe a senha'));
+			if (senha === 3589) {
+				alert(` ${nome} \n Agência: 0126-15 \n Extrato referente ao mês corrente \n Saldo anterior: 50.0 \n Tranferência: +150.0 \n Asura Modas: -40.5 \n Renato Lanches: -30.5 \n Dougmercados -10.0 \n Jo Boutique: -19.5 \n Saldo Disponível: 100.5`);
+				inicio();
+			}
+			else {
+				ver_extrato();
+			}
+		}
+
+		function fazer_deposito() {
+
+			var deposito = parseFloat(prompt('Qual o valor para depósito?'));
+
+			// Not a Number --> Isso é um não-número?
+			if (isNaN(deposito) || deposito === '' || deposito <= 0) {
+				alert('Por favor, informe um número.');
+				fazer_deposito();
+			} else {
+				saldo += deposito;
+				//saldo = saldo + deposito;
+				ver_saldo();
+			}
+		}
+
+
+		function fazer_saque() {
+			let senha = parseInt(prompt('informe a senha'));
+			if (senha === 3589) {
+				var saque = parseFloat(prompt('Qual o valor para saque?'));
+
+
+				if (isNaN(saque) || saque === '') {
+					alert('Por favor, informe um número.');
+					fazer_saque();
+				} else {
+					if (saque <= 0) {
+						alert('Operação não autorizada');
+						inicio();
+					}
+					else {
+						if (saque <= saldo) {
+							saldo -= saque;
+							ver_saldo();
+						}
+						else {
+							alert('Operação não autorizada');
+							inicio();
+						}
+					}
+
+					//saldo = saldo - saque;
+				}
+			}
+			else {
+				fazer_saque();
+			}
+		}
+
+		function transferencia() {
+			let senha = parseInt(prompt('informe a senha'));
+			if (senha === 3589) {
+				let agencia = parseInt(prompt('informe o número de uma conta'));
+				if (isNaN(agencia) || agencia === '' || agencia < 0) {
+					alert('Por favor, informe somente numeros');
+					transferencia();
+				} else {
+					let tranferencia = parseFloat(prompt('Qual o valor para transferencia?'));
+					if (tranferencia <= 0) {
+						alert('Operação não autorizada');
+						inicio();
+					}
+					else {
+						if (tranferencia <= saldo) {
+							saldo -= tranferencia;
+							alert(`Transferencia efetuada, seu saldo atual é de ${saldo}`);
+							inicio();
+						}
+						else {
+							alert('Operação não autorizada');
+							inicio();
+						}
+					}
+				}
+			}
+			else {
+				fazer_saque();
+			}
+		}
+
+		function erro() {
+			alert('Por favor, informe um número entre 1 e 6.');
+			inicio();
+		}
+
+		function sair() {
+			var confirma = confirm('Você deseja sair?');
+			if (confirma) {
+				alert(`${nome}, foi um prazer ter você por aqui!`);
+				window.close();
+			} else {
+				inicio();
+			}
+		}
+		nomefuncao();
+		inicio();
+	</script>
+</head>
+
+<body>
+
+</body>
+
+</html>
