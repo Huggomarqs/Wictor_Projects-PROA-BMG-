@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+
+.fundo{
+    background: rgb(4,234,166);
+    background: linear-gradient(180deg, rgba(4,234,166,1) 0%, rgba(2,163,218,1) 35%, rgba(123,104,238,1) 60%, rgba(147,112,219,1) 85%, rgba(138,43,226,1) 100%);
+}
+.container{
+    height: 80vh;
+    width: 90vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow: hidden;
+}
+.text1{
+    height: 67vh;
+    padding: 1vw;
+    overflow: hidden;
+    border-radius: 2vh;
+    background: #FAFAFA;
+}
+.caixatitulo{
+    height: 6vh;
+    overflow: hidden;
+    margin-bottom: 2vh;
+    margin-top:2vh;
+}
+.titulo{
+    flex-direction: row;
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.caixatexto{
+    overflow: hidden;
+    height: 53vh;
+    display: flex;
+}
+.texto{
+    font-size: 4vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+/*botoes*/
+.botoes{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 13vh;
+    overflow: hidden;
+}
+.btn1{
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 4.2vw;
+    height: 4.2vw;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-self: center;
+    overflow: hidden;
+}
+button{
+    cursor: pointer;
+    overflow: hidden;
+}
+img{
+    height: 3vw;
+    align-self: center;
+    text-align: center;
+    padding-left: .3vw;
+    padding-top: .2vw;
+}

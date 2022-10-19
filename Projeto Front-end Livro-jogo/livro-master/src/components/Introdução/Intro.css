@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+
+.container{
+    height: 76vh;
+    width: 90vw;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    overflow: hidden;
+}
+.text{
+    background: rgb(4,234,166);
+    background: linear-gradient(180deg, rgba(4,234,166,1) 0%, rgba(2,163,218,1) 35%, rgba(123,104,238,1) 60%, rgba(147,112,219,1) 85%, rgba(138,43,226,1) 100%);
+    height: 65vh;
+    padding: 1vw;
+}
+.titulo{
+    flex-direction: row;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+}
+.texto{
+    flex-direction: row;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3vw;
+}
+.botoes{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    height: 11vh;
+    overflow: hidden;
+}
+/*
+.btn1{
+    flex-direction: row;
+    background: rgb(4,234,166);
+    background: linear-gradient(180deg, rgba(4,234,166,1) 0%, rgba(2,163,218,1) 35%, rgba(123,104,238,1) 60%, rgba(147,112,219,1) 85%, rgba(138,43,226,1) 100%);
+    margin-right: 16vw;
+    height:7vh;
+    width: 24vw;
+    border-radius: 5vw;
+    border: 0;
+}
+.btn2{
+    border: 0;
+    border-radius: 5vw;
+    flex-direction: row;
+    width: 24vw;
+    background: rgb(243, 250, 248);
+    background: linear-gradient(180deg, rgba(4,234,166,1) 0%, rgba(2,163,218,1) 35%, rgba(123,104,238,1) 60%, rgba(147,112,219,1) 85%, rgba(138,43,226,1) 100%);
+}
+*/
+.textbtn{
+    text-align: center;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+.btn{
+    border: 0;
+    background: rgb(243, 250, 248);
+    background: linear-gradient(180deg, rgba(4,234,166,1) 0%, rgba(2,163,218,1) 35%, rgba(123,104,238,1) 60%, rgba(147,112,219,1) 85%, rgba(138,43,226,1) 100%);
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-self: center;
+}
+button{
+    cursor: pointer;
+}
+img{
+    height: 2vw;
+    align-self: center;
+    text-align: center;
+    padding-left: .2vw;
+    padding-top: .2vw;
+}

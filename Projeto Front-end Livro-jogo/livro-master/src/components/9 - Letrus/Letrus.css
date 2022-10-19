@@ -1,0 +1,37 @@
+.textletrus{
+    height: 67vh;
+    padding: 1vw;
+    overflow: hidden;
+    border-radius: 2vh;
+}
+.one .caixatexto p{
+    font-size: larger;
+}
+.btn1letrus{
+    flex-direction: row;
+    height:8vh;
+    width: 24vw;
+    border-radius: 5vw;
+    border: 0;
+    overflow: hidden;
+
+}
+
+.btn2letrus{
+    border: 0;
+    border-radius: 5vw;
+    flex-direction: row;
+    width: 24vw;
+    height:8vh;
+    overflow: hidden;
+}
+.btnletrus{
+    border: 0;
+    background: #EEAD2D;
+    border-radius: 50%;
+    width: 4.2vw;
+    height: 4.2vw;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-self: center;
+}
