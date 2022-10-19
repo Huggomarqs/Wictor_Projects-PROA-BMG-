@@ -1,0 +1,24 @@
+.textvolta{
+    height: 67vh;
+    padding: 1vw;
+    overflow: hidden;
+    border-radius: 2vh;
+}
+.btn1volta{
+    flex-direction: row;
+    height:8vh;
+    width: 24vw;
+    border-radius: 5vw;
+    border: 0;
+    overflow: hidden;
+
+}
+
+.btn2volta{
+    border: 0;
+    border-radius: 5vw;
+    flex-direction: row;
+    width: 24vw;
+    height:8vh;
+    overflow: hidden;
+}

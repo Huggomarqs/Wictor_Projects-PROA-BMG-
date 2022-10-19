@@ -1,0 +1,25 @@
+.textagro{
+    height: 67vh;
+    padding: 1vw;
+    overflow: hidden;
+    border-radius: 2vh;
+}
+.textoagro {
+    font-size: 1vh;
+}
+.btn1agro{
+    flex-direction: row;
+    height:8vh;
+    width: 24vw;
+    border-radius: 5vw;
+    border: 0;
+    overflow: hidden;
+}
+.btn2agro{
+    border: 0;
+    border-radius: 5vw;
+    flex-direction: row;
+    width: 24vw;
+    height:8vh;
+    overflow: hidden;
+}

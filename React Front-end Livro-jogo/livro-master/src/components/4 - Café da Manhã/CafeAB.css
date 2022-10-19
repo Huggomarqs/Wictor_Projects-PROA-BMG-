@@ -1,0 +1,10 @@
+.btncaf{
+    border: 0;
+    background: #EEAD2D;
+    border-radius: 50%;
+    width: 4.2vw;
+    height: 4.2vw;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-self: center;
+}
