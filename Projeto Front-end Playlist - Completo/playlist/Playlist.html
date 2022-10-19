@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head id="css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playlist Wictor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="playerpage.css">
+</head>
+
+<body id="conteudo">
+
+
+    <header>
+
+        <div class="container-fluid text-center">
+
+            <div id="row1" class="row">
+
+                <div class="col-md-2 align-items-center"> <a href="Playlist.html"><img src="img/logo.png" id="logo"
+                            class="img-fluid"></a>
+                </div>
+
+                <div class="col-md-2 align-self-center">
+
+                    <div class="btn-group" role="group" aria-label="Basic example"> <button type="button" id="botao1"
+                            class="btn"><img src="img/SETA22.png" class="img-fluid"></button> <button type="button"
+                            id="botao2" class="btn"><img src="img/SETA11.png" class="img-fluid"></button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 align-self-center">
+
+                    <div class="input-group">
+                        <input type="text" id="form-control" class="form-control"> <button class="btn" type="button"
+                            id="button-addon2"><img src="img/lupa.png" class="img-fluid"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+
+        <div class="row">
+
+            <div id="colconteudo1" class="col col-auto">
+
+                <div class="retangulo">
+
+                    <div class="partecima">
+
+                        <div class="titulomenu"> <strong>Preferences</strong>
+                        </div>
+
+                        <div class="divitem"> <button type="button" class="btn btnmenu"
+                                onclick="conteudoCarregacol2css(conteudoart,csschange1);">
+
+                                <div class="row itensmenu">
+
+                                    <div class="col-4 imgmenu"> <img src="img/artists.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col textmenu"><strong>Artists</strong>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="divitem"> <button type="button" class="btn btnmenu"
+                                onclick="conteudoCarregacol2css(conteudoalbum,csschangealbum);">
+
+                                <div class="row itensmenu">
+
+                                    <div class="col-4 imgmenu"> <img src="img/discs.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col textmenu"><strong>Albums</strong>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div id="last" class="divitem"> <button type="button" class="btn btnmenu"
+                                onclick="conteudoCarregacol2css(conteudopod,csschangepod);">
+
+                                <div class="row itensmenu">
+
+                                    <div class="col-4 imgmenu"> <img src="img/mic.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col textmenu"><strong>Podcasts</strong>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="titulomenu"> <strong>Songs</strong>
+                        </div>
+
+                        <div class="divitem"> <button type="button" class="btn btnmenu"
+                                onclick="conteudoCarregacol2css(conteudofavourite,cssclassic);">
+
+                                <div class="row itensmenu">
+
+                                    <div class="col-4 imgmenu"> <img src="img/music.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col textmenu"><strong>My favourite</strong>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="divitem"> <button type="button" class="btn btnmenu"
+                                onclick="conteudoCarregacol2css(conteudorecen,csschangerecen);">
+
+                                <div class="row itensmenu">
+
+                                    <div class="col-4 imgmenu"> <img src="img/timemusic.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col textmenu"><strong>Recently played</strong>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="partebaixa">
+
+                        <div class="row text-center">
+
+                            <div class="col-4 self-align-center perfilbaixa">
+
+                                <div class="perfilb"> <img src="img/eu.png">
+                                </div>
+                            </div>
+
+                            <div class="col self-align-center textobaixa">
+
+                                <div class="row self-align-center text-center textob"><a class="link link1"
+                                        target="_blank" href="https://github.com/Huggomarqs">/github.com/Huggomarqs</a>
+                                </div>
+
+                                <div class="row text-center textob"><a class="link link2" target="_blank"
+                                        href="https://www.linkedin.com/in/wictor-huggo-marques/">Wictor Huggo
+                                        Marques</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="colconteudo2" class="col">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+                    <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button> <button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active"> <img src="img/DESINFORMA2.png" class="d-block w-100"
+                                alt="...">
+                        </div>
+
+                        <div class="carousel-item"> <img src="img/dualipa.png" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item"> <img src="img/thebeatles.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+    <script src="playlist.js">
+    </script>
+
+</body>
+
+</html>

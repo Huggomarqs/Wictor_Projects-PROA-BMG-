@@ -1,0 +1,401 @@
+/*geral*/
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 140, 0, 1) 75%, rgba(255, 140, 0, 0.2) 100%);
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 100vh;
+    position: absolute;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+#row1 {
+    height: 10vh;
+    overflow: hidden;
+
+}
+
+#logo {
+    padding-top: .5vh;
+}
+
+#button-addon2 {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+    overflow: hidden;
+    height: 4.3vh;
+    border: 0;
+
+}
+
+.input-group {
+    border-radius: 0;
+    height: 4.3vh;
+    overflow: hidden;
+    border: 0;
+
+}
+
+#form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    border: hidden;
+    background-color: #D9D9D9;
+    border: 0;
+    padding-left: .7vw;
+
+
+}
+
+.btn-group {
+    height: 5vh;
+    width: 3.5vw;
+    overflow: hidden;
+    border: 0;
+
+
+}
+
+#botao1 {
+    padding: 0;
+    padding-right: 1px;
+    border-radius: 0;
+    overflow: hidden;
+    border: 0;
+
+
+}
+
+#botao2 {
+    padding: 0;
+    padding-left: 1px;
+    border-radius: 0;
+    overflow: hidden;
+    border: 0;
+
+
+}
+
+/*col1*/
+.retangulo {
+    height: 90vh;
+    padding-top: 3vh;
+    background-color: black;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    border-right: .2vw solid #FF8C00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.partecima {
+    height: 75vh;
+}
+
+.titulomenu {
+    padding-left: 3vw;
+    overflow: hidden;
+    margin-bottom: 1.5vh;
+    font-size: 22px;
+    color: #FF8C00;
+}
+
+.itensmenu {
+    height: 5vh;
+    padding-left: 2vw;
+    padding-right: 1vw;
+
+}
+
+.imgmenu {
+    width: fit-content;
+    padding-left: 1vw;
+}
+
+.textmenu {
+    padding: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btnmenu {
+    overflow: hidden;
+    padding: 0;
+    height: 5vh;
+    border: 0;
+    width: fit-content;
+}
+
+.divitem {
+    margin-bottom: 1vh;
+    padding-left: .5vw;
+}
+
+#last {
+    margin-bottom: 1.5vh;
+}
+
+.partebaixa {
+    border-top: .3vh solid #FF8C00;
+    height: 15vh;
+    margin-left: .9vw;
+    padding-left: .5vw;
+    padding-right: 1vw;
+    overflow: hidden;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.perfilbaixa {
+    height: 11.8vh;
+    overflow: hidden;
+    padding: 0;
+    padding-top: 1.9vh;
+}
+
+.perfilb {
+    height: 9.9vh;
+    width: 10.9vh;
+    overflow: hidden;
+}
+
+.textob:first-child {
+    height: 5.9vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px;
+    color: #FF8C00;
+    overflow: hidden;
+    padding: 0px 0px;
+    padding-top: 2.1vh;
+    padding-bottom: 1vh;
+}
+.textob:first-child:hover {
+    background: url("img/depositphotos_6504973-stock-illustration-starry-sky.jpg");
+}
+.textob:last-child:hover {
+    background-color: #caccce;
+    padding: 1.35vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+.textob {
+    padding: 1.35vh;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    height: 5.9vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.link1:hover {
+    text-decoration: none;
+    font-style: normal;
+    padding: 0;
+    color: #fafbfc;
+}
+
+.link2:hover{
+    text-decoration: none;
+    font-style: normal;
+    padding: 0;
+    color: #0077b5;
+    background-color: #caccce;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    padding: 0;
+    color: #FF8C00;
+}
+
+#colconteudo1 {
+    padding: 0;
+    margin: 0;
+    width: 20vw;
+    overflow: hidden;
+}
+
+/*col2*/
+.divisao {
+    height: 45vh;
+}
+
+#colconteudo2 {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 80vw;
+    padding: 0;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 0.5rem;
+    margin-left: 15%;
+    list-style: none;
+
+}
+.carousel-inner{
+    height: 90vh;
+}
+.carousel-item img{
+    height: 90vh;
+}
+.carousel-indicators [data-bs-target] {
+
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #FF8C00;
+    background-clip: padding-box;
+    transition: opacity .6s ease;
+    
+}
+
+.colconteudos {
+    margin: 0;
+    height: 40vh;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.botaoconteudo {
+    color: transparent;
+    padding: 0;
+}
+.botaoconteudo img {
+    height: 25vh;
+}
+
+#tabela1 {
+    margin-left: 18vh;
+    margin-top: 3vh;
+    overflow: hidden;
+}
+
+#tabela2 {
+    margin-left: 9vh;
+    margin-top: 3vh;
+}
+
+#tabela3 {
+    margin-left: 9vh;
+    margin-right: 20vh;
+    margin-top: 3vh;
+}
+
+#tabela4 {
+    margin-top: 2vh;
+    margin-left: 18vh;
+
+}
+
+#tabela5 {
+    margin-top: 2vh;
+    margin-left: 9vh;
+
+}
+
+#tabela6 {
+    margin-top: 2vh;
+    margin-left: 9vh;
+    margin-right: 20vh;
+
+}
+
+.topcard {
+    height: 10vh;
+    padding-top: .8vw;
+    padding-left: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.titulocard {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    overflow: hidden;
+    height: 25px;
+
+}
+
+.subticard {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+
+}
+
+.imagecard {
+    background-color: black;
+    height: 25vh;
+    overflow: hidden;
+
+}
+
+.footercard {
+    height: 5vh;
+    overflow: hidden;
+}
+
+.albumcard {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 1.5vw;
+    margin-right: 1vw;
+}
+
+.anocard {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    padding: 0;
+}
+
+#tabela6 .footercard .albumcard {
+    font-size: 11.9px;
+}
+
+#tabela2 .footercard .albumcard {
+    font-size: 11px;
+}
