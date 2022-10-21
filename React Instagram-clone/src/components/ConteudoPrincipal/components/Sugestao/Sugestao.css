@@ -1,0 +1,129 @@
+
+.header-suggestion {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.header-suggestion img {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.infos span{
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+}
+.infos p{
+    font-size: 14px;
+    cursor: pointer;
+    color: #8E8E8E;
+}
+.user-infos-suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.user-infos-suggestion .switch {
+    color: #0095F6;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 2px;
+    cursor: pointer;
+}
+.header-main-suggestion  {
+    display: flex;
+    gap: 147px;
+    padding: 8px 0 4px 0;
+}
+.header-main-suggestion p {
+    font-size: 14px;
+    color: #8E8E8E;
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+}
+.header-main-suggestion span {
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #262626;
+    font-family: 'Roboto', sans-serif;
+}
+/*sugestão usuario*/
+.user-suggestion {
+    padding-top: 5px;
+}
+.infos-suggestion {
+    padding: 6px 2px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 47px;
+}
+
+.perfilsuges{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: fit-content;
+}
+.infos-suggestion img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.info-suggestion span {
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.info-suggestion p {
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-top: 3px;
+}
+.infos-suggestion .follow {
+    cursor: pointer;
+    color: #0095F6;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.seguir{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*footer*/
+.footer-suggestion {
+    margin-top: 30px;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 23px;
+}
+.footer-suggestion p {
+    font-size: 12px;
+    color: #C7C7C7;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.footer-suggestion p:last-child{
+    padding-left: 2px;
+}
+

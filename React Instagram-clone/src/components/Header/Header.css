@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.header {
+    background: #FAFAFA;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    max-width: 957px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 20px;
+}
+.logoarrow{
+    display: flex;
+    flex-direction: row;
+    width: 24.7%;
+    min-width: 125px;
+    justify-content: flex-start;
+}
+.header .container .logo {
+    width: 110px;
+    cursor: pointer;
+    flex-direction: column;
+}
+.arrow{
+    border-style: none;
+    width: 28px;
+    height: 36px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.arrow svg{
+    height: 18px;
+    width: 18px;
+    align-self: center;
+    cursor: pointer;
+}
+.input2 {
+    background: rgb(239, 239, 239);
+    border-radius: 8px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 268px;
+}
+.input2 svg{
+    cursor: pointer;
+}
+.input2 input {
+    font-size: 15px;
+    padding: 0 7px;
+    outline: 0;
+    border: 0;
+    background: rgb(239, 239, 239);
+    height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.menu-icone {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    
+}
+.menu-icone svg{
+    cursor: pointer;
+}
+.menu-icone .image{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+}

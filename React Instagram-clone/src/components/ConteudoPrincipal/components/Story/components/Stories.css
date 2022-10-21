@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+.story-elements {
+    cursor: pointer;
+}
+.user-elements .image {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( #c82d8e, #f99d4c);
+    cursor: pointer;
+}
+.image-user-story {
+    border: 2px solid var(--background);
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+.user-elements .name{
+    text-align: center;
+    margin-top: 5px;
+}
+.user-elements span {
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100 bolder;
+}

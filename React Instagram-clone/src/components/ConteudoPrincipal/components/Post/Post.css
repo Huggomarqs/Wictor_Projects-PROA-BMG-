@@ -1,0 +1,230 @@
+.header-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.header-post .img-header-post {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+/*img*/
+.img-post{
+    height: 468px;
+    width: 468px;
+    overflow: hidden;
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.perfil div{
+    flex-direction: column;
+    
+}
+.perfil svg{
+    align-self: center;
+}
+.perfil span{
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
+}
+.legend p .nomeperfil{
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
+}
+p span{
+    font-family: 'Roboto', sans-serif;
+}
+.infos-post {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.infos-post img{
+    cursor: pointer;
+}
+.header-post span{
+    cursor: pointer;
+}
+.img-post{
+    height: fit-content;
+}
+.img-post img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+/*parte de baixo*/
+.linha1{
+    height: 156px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.footer-post {
+   display: flex;
+   flex-direction: column;
+}
+.engagement-post {
+    margin-top: 4px;
+    height: 46px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.normal{
+    display: flex;
+    flex-direction: row;
+    width: 112px;
+}
+.reverse{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    padding: 8px;
+    overflow: hidden;
+}
+.engagement-post .icon:first-child{
+    padding-left: 0px;
+}
+.iconreve{
+    padding: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.engagement-post svg{
+    height: 24px;
+    width: 24px;
+}
+.engagement-post .icons-1 {
+    display: flex;
+    gap: 12px;
+}
+.engagement-post button:hover{
+    opacity: 0.5;
+
+}
+button{
+    outline-style: none;
+    border: 0;
+    background-color: inherit;
+    cursor: pointer;
+}
+.like{
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+}
+.like span{
+    align-self: center;
+    font-size: 14px;
+}
+.like span span{
+    font-weight: bold;
+    cursor: pointer;
+}
+.legend {
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+}
+.msg{
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.msg p{
+    align-self: center;
+}
+.msg .nomeperfil{
+    cursor: text;
+}
+.msg .nomeperfil{
+    cursor: pointer;
+}
+.vercomenta{
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.vercomenta span{
+    align-self: center;
+    font-size: 14px;
+    color: #8E8E8E;
+}
+.time-post{
+    margin-bottom: 12px;
+}
+.time{
+    font-size: 10px;
+    color: #8E8E8E;
+}
+.tradu{
+    font-size: 12px;
+    color: #262626;
+    font-weight: bold;
+}
+.time-post span{
+    cursor: pointer;
+}
+.linha2{
+    padding: 4px;
+    padding-right: 16px;
+    padding-left: 12px;
+    border-top: 1px solid rgb(230, 230, 230);
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    flex-direction: column;
+}
+.linha2 input {
+    font-size: 16px;
+    width: 353px;
+    height: 100%;
+    border: 0;
+    background-color: inherit;
+    font-size: 14px;
+    color: #262626;
+    outline: 0;
+}
+.smile{
+    width: 36px;
+    display: flex;
+    align-self: center;
+    padding: 8px;
+    padding-left: 0;
+    padding-right: 12px;
+}
+.smile svg{
+    height: 24px;
+    width: 24px;
+}
+.publicar{
+    display: flex;
+    flex-direction: row;
+}
+.linha2 button{
+    color: #0095F6;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    width: 51px;
+}
+/*geral*/
+.caixapost {
+    background: #FAFAFA;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 8px;
+    width: 470px;
+    margin-bottom: 15px;
+}

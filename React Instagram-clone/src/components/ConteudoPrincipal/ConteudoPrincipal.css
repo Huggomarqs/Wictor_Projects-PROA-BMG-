@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+    grid-template-columns: 614px 293px;
+    width: 820px;
+    margin: 86px 264px;
+}
+.caixa {
+    background: #FAFAFA;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 8px;
+    width: 470px;
+    margin-bottom: 15px;
+}
+.col-1{
+    width: 470px;
+}
+.col-2{
+    width: 350px;
+}
+.caixa2 {
+    max-width:350px;
+    margin-left: 30px;
+}
