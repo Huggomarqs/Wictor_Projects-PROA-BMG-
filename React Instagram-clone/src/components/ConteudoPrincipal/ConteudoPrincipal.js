@@ -34,7 +34,7 @@ function ConteudoPrincipal(){
         <Post fotoperfil='https://pbs.twimg.com/profile_images/1543792054903382016/3s1dQRCH_400x400.jpg'
         nomeperfil='corinthians' 
         post='https://pbs.twimg.com/media/FfeHEu7WAAAYTTn?format=jpg&name=medium' 
-        mensagem='ESTAMOS ESCALADOS PRA GRANDE DECISÃO! 📋' 
+        mensagem='ESCALADOS!📋' 
         hora='2'/>
         <Post fotoperfil='https://i.pinimg.com/736x/ae/20/e5/ae20e5f036dd9fe6e649ca1d216bef32--rock-johnson-dwayne-johnson.jpg'
         nomeperfil='therock' 
