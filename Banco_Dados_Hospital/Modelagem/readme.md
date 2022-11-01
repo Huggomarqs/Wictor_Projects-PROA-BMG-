@@ -12,4 +12,5 @@ Sobre o projeto, Você pode visualiza-lo:
 # Parte 2:
 ![alt text](https://github.com/Huggomarqs/PROA-projects/blob/Projetos-Back-end/Banco_Dados_Hospital/Modelagem/bancodadosconceito2.png?raw=true)
 
- 
+ # Parte 3: 
+ [a relative link](Banco_Dados_Hospital/Modelagem/Hospitalparte3.sql)
