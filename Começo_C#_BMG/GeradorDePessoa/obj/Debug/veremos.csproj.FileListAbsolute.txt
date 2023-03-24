@@ -1,0 +1,8 @@
+C:\Users\usuario\Desktop\C#_projects\veremos\bin\Debug\veremos.exe.config
+C:\Users\usuario\Desktop\C#_projects\veremos\bin\Debug\veremos.exe
+C:\Users\usuario\Desktop\C#_projects\veremos\bin\Debug\veremos.pdb
+C:\Users\usuario\Desktop\C#_projects\veremos\obj\Debug\veremos.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\C#_projects\veremos\obj\Debug\veremos.csproj.SuggestedBindingRedirects.cache
+C:\Users\usuario\Desktop\C#_projects\veremos\obj\Debug\veremos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\C#_projects\veremos\obj\Debug\veremos.exe
+C:\Users\usuario\Desktop\C#_projects\veremos\obj\Debug\veremos.pdb
