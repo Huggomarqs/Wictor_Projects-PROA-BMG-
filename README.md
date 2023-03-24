@@ -2,4 +2,4 @@
 Coletanea de projetos pessoais realizados na minha carreira.
 # BRANCH FOCADA EM BACK-END e BANCO DE DADOS
 
-# Muita Luz. Paz.
+# Muita Luz. Paz. U+2764
